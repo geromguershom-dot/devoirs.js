@@ -1,3 +1,4 @@
+Autor: NAMA NKOA GUERSHOM
 const getFoods = async () => {
   const res = await fetch('https://jsonplaceholder.typicode.com/users');
   const data = await res.json();
